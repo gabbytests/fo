@@ -3,7 +3,7 @@
 body {
     font-family: Mulish, sans-serif;
     font-size: 13px;
-    color: #3b5998;
+    color: #00c8ff;
     background: #565656;
 }
 
@@ -159,12 +159,12 @@ div, a {
 }
 
 .osahan-menu-fotter .col.selected a {
-    color: #3b5998;
+    color: #00c8ff;
     
 }
 
 .osahan-menu-fotter .col.selected p {
-    color: #3b5998;
+    color: #00c8ff;
 }
 
 .osahan-menu-fotter .col.bg-white.rounded-circle.mt-n4.px-3.py-2 {
@@ -190,7 +190,7 @@ div, a {
     top: 0;
     bottom: 0;
     left: 0;
-    box-shadow: 0 0 1px #3b5998;
+    box-shadow: 0 0 1px #00c8ff;
     right: 0;
     border: none !important;
 }
@@ -221,8 +221,8 @@ div, a {
     border-radius: .4rem !important;
     pointer-events: none;
     position: absolute;
-    border-color: #3b5998;
-    border: 2px solid #3b5998;
+    border-color: #00c8ff;
+    border: 2px solid #00c8ff;
     display: block;
 }
 
@@ -391,11 +391,11 @@ div, a {
 
 .btn-facebook {
     background: #2b4170;
-    background: -moz-linear-gradient(45deg, #3b5998 0%, #2b4170 100%);
-    background: -webkit-linear-gradient(45deg, #3b5998 0%, #2b4170 100%);
-    background: linear-gradient(45deg, #3b5998 0%, #2b4170 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#2b4170', GradientType=1);
-    border-color: #3b5998;
+    background: -moz-linear-gradient(45deg, #00c8ff 0%, #2b4170 100%);
+    background: -webkit-linear-gradient(45deg, #00c8ff 0%, #2b4170 100%);
+    background: linear-gradient(45deg, #00c8ff 0%, #2b4170 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c8ff', endColorstr='#2b4170', GradientType=1);
+    border-color: #00c8ff;
     color: #fff !important;
 }
 
@@ -404,49 +404,49 @@ div, a {
     background: -moz-linear-gradient(45deg, #565656 0%, #565656 100%);
     background: -webkit-linear-gradient(45deg, #565656 0%, #565656 100%);
     background: linear-gradient(45deg, #565656 0%, #565656 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#3b5998', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c8ff', endColorstr='#00c8ff', GradientType=1);
 }
 
 .btn-primary {
-    background: #3b5998;
-    background: -moz-linear-gradient(45deg, #3b5998 0%, #3b5998 100%);
-    background: -webkit-linear-gradient(45deg, #3b5998 0%, #3b5998 100%);
-    background: linear-gradient(45deg, #3b5998 0%, #3b5998 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#3b5998', GradientType=1);
-    border-color: #3b5998;
+    background: #00c8ff;
+    background: -moz-linear-gradient(45deg, #00c8ff 0%, #00c8ff 100%);
+    background: -webkit-linear-gradient(45deg, #00c8ff 0%, #00c8ff 100%);
+    background: linear-gradient(45deg, #00c8ff 0%, #00c8ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c8ff', endColorstr='#00c8ff', GradientType=1);
+    border-color: #00c8ff;
 }
 
 .btn-primary:hover {
-    background: #3b5998;
-    background: -moz-linear-gradient(-45deg, #3b5998 0%, #3b5998 100%);
-    background: -webkit-linear-gradient(-45deg, #3b5998 0%, #3b5998 100%);
-    background: linear-gradient(135deg, #3b5998 0%, #3b5998 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#3b5998', GradientType=1);
-    border-color: #3b5998;
+    background: #00c8ff;
+    background: -moz-linear-gradient(-45deg, #00c8ff 0%, #00c8ff 100%);
+    background: -webkit-linear-gradient(-45deg, #00c8ff 0%, #00c8ff 100%);
+    background: linear-gradient(135deg, #00c8ff 0%, #00c8ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c8ff', endColorstr='#00c8ff', GradientType=1);
+    border-color: #00c8ff;
 }
 
 .btn-outline-primary {
-    color: #3b5998;
-    border-color: #3b5998;
+    color: #00c8ff;
+    border-color: #00c8ff;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background: #3b5998;
-    background: -moz-linear-gradient(-45deg, #3b5998 0%, #3b5998 100%);
-    background: -webkit-linear-gradient(-45deg, #3b5998 0%, #3b5998 100%);
-    background: linear-gradient(135deg, #3b5998 0%, #3b5998 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b5998', endColorstr='#3b5998', GradientType=1);
-    border-color: #3b5998;
+    background: #00c8ff;
+    background: -moz-linear-gradient(-45deg, #00c8ff 0%, #00c8ff 100%);
+    background: -webkit-linear-gradient(-45deg, #00c8ff 0%, #00c8ff 100%);
+    background: linear-gradient(135deg, #00c8ff 0%, #00c8ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c8ff', endColorstr='#00c8ff', GradientType=1);
+    border-color: #00c8ff;
 }
 
 .text-primary {
-    color: #3b5998 !important;
+    color: #00c8ff !important;
     text-decoration: none !important;
 }
 
 a {
-    color: #3b5998;
+    color: #00c8ff;
     text-decoration: none !important;
 }
 
@@ -457,7 +457,7 @@ p {
 
 .btn-link {
     font-weight: 400;
-    color: #3b5998;
+    color: #00c8ff;
     text-decoration: none !important;
 }
 
@@ -582,7 +582,7 @@ p {
 
 .rating-stars .feather-star {
     font-size: 10px;
-    background: #3b5998;
+    background: #00c8ff;
     color: #fff;
     padding: 2px;
     text-shadow: 0 0 1px #d2b128;
@@ -615,7 +615,7 @@ p {
 .login-page .form-control {
     background: no-repeat;
     border: none;
-    color: #3b5998;
+    color: #00c8ff;
     border-bottom: 1px solid rgb(160 160 160/32%);
     border-radius: 0;
     padding: 0;
@@ -624,8 +624,8 @@ p {
 
 .login-page .form-control:hover,
 .login-page .form-control:focus {
-    color: #3b5998;
-    border-bottom: 1px solid #3b5998;
+    color: #00c8ff;
+    border-bottom: 1px solid #00c8ff;
 }
 
 .login-page label {
@@ -661,8 +661,8 @@ p {
 }
 
 .filter .form-check-input:checked {
-    border-color: #3b5998;
-    background-color: #3b5998;
+    border-color: #00c8ff;
+    background-color: #00c8ff;
 }
 
 .gold-members h6,
@@ -914,7 +914,7 @@ p {
 }
 
 .offer-section {
-    background-color: #3b5998;
+    background-color: #00c8ff;
 }
 
 .mt-n3 {
@@ -938,7 +938,7 @@ footer .text-muted {
 }
 
 .section-footer {
-    background: #3b5998 !important;
+    background: #00c8ff !important;
 }
 
 .section-footer .border-top {
@@ -980,7 +980,7 @@ footer .text-muted {
 
 .custom-tabs.nav-tabs .nav-item.show .nav-link,
 .custom-tabs.nav-tabs .nav-link.active {
-    border-bottom: 2px solid #3b5998 !important;
+    border-bottom: 2px solid #00c8ff !important;
 }
 
 .search .nav-tabs .nav-item.show .nav-link,
