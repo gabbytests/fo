@@ -9102,6 +9102,11 @@ textarea.form-control-lg {
     background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important
 }
 
+.bg-darkish {
+    --bs-bg-opacity: 1;
+    background-color: rgba(30, 30, 30, var(--bs-bg-opacity)) !important; /* Adjust the RGB values as needed */
+}
+
 .bg-black {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important
