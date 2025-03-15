@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-3 d-flex align-items-center m-none">
                         <div class="dropdown me-3">
-                            <a class="text-white dropdown-toggle d-flex align-items-center py-3" href="profile.html#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="text-dark dropdown-toggle d-flex align-items-center py-3" href="profile.html#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div><i class="feather-map-pin me-2 bg-light rounded-pill p-2 icofont-size"></i></div>
                                 <div>
                                     <p class="text-muted mb-0 small">Select Location</p>
@@ -117,7 +117,7 @@
                     <div class="col-8">
                         <div class="d-flex align-items-center justify-content-end pe-5">
                             <!-- search -->
-                            <a href="search.html" class="widget-header me-4 text-white">
+                            <a href="search.html" class="widget-header me-4 text-dark">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-search h6 me-2 mb-0"></i> <span>Search</span>
                                 </div>
@@ -129,14 +129,14 @@
                                 </div>
                             </a>
                             <!-- signin -->
-                            <a href="login.html" class="widget-header me-4 text-white m-none">
+                            <a href="login.html" class="widget-header me-4 text-dark m-none">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-user h6 me-2 mb-0"></i> <span>Sign in</span>
                                 </div>
                             </a>
                             <!-- my account -->
                             <div class="dropdown me-4 m-none">
-                                <a href="profile.html#" class="dropdown-toggle text-white py-3 d-block" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="profile.html#" class="dropdown-toggle text-dark py-3 d-block" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img alt="#" src="img/user/1.jpg" class="img-fluid rounded-circle header-user me-2 header-user"> Hi Osahan
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <!-- signin -->
-                            <a href="cart.html" class="widget-header me-4 text-white">
+                            <a href="cart.html" class="widget-header me-4 text-dark">
                                 <div class="icon d-flex align-items-center">
                                     <i class="feather-shopping-cart h6 me-2 mb-0"></i> <span>Cart</span>
                                 </div>
@@ -171,68 +171,54 @@
     <div class="osahan-profile">
         <div class="d-none">
             <div class="bg-primary border-bottom p-3 d-flex align-items-center">
-                <a class="toggle togglew toggle-2" href="profile.html#"><span></span></a>
+               
                 <h4 class="fw-bold m-0 text-white">Profile</h4>
             </div>
         </div>
         <!-- profile -->
         <div class="container position-relative">
             <div class="py-5 osahan-profile row">
-                <div class="col-md-4 mb-3">
-                    <div class="bg-dark rounded shadow-sm sticky_sidebar overflow-hidden">
-                        <a href="profile.html" class="">
-                            <div class="d-flex align-items-center p-3">
-                                <div class="left me-3">
-                                    <img alt="#" src="img/placeholder.jpg" class="rounded-circle">
+               
+                <div class="col-md-8 mb-3">
+                    <div class="rounded shadow-sm p-4 bg-dark">
+                        <h5 class="mb-4">My account</h5>
+                        <div id="edit_profile">
+                            <div>
+                                <form action="https://gabbytests.github.io/food/my_account.html">
+                                    <div class="form-group mb-3">
+                                        <label class="pb-1">First Name</label>
+                                        <input type="text" class="form-control" value="Gurdeep">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="pb-1">Last Name</label>
+                                        <input type="text" class="form-control" value="Singh">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="pb-1">Mobile Number</label>
+                                        <input type="number" class="form-control" value="1234567890">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="pb-1">Email</label>
+                                        <input type="email" class="form-control" value="iamosahan@gmail.com">
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary w-100">Save Changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="additional">
+                                <div class="change_password my-3">
+                                    <a href="forgot_password.html" class="p-3 border rounded bg-white btn d-flex align-items-center">Change Password 
+                              <i class="feather-arrow-right ms-auto"></i></a>
                                 </div>
-                                <div class="right">
-                                    <h6 class="mb-1 fw-bold">Gurdeep Singh <i class="feather-check-circle text-success"></i></h6>
-                                    <p class="text-white m-0 small"><span class="__cf_email__" data-cfemail="157c74787a66747d747b557278747c793b767a78">[email&#160;protected]</span></p>
+                                <div class="deactivate_account">
+                                    <a href="forgot_password.html" class="p-3 border rounded bg-white btn d-flex align-items-center">Deactivate Account 
+                              <i class="feather-arrow-right ms-auto"></i></a>
                                 </div>
                             </div>
-                        </a>
-                        
-                        <!-- profile-details -->
-                         
-                        <div class="bg-dark profile-details">
-                           
-                           
-                            <a href="account.html" class="d-flex w-100 align-items-center border-bottom px-3 py-4">
-                                <div class="left me-3">
-                                    <h6 class="fw-bold m-0 text-white"><i class="feather-user bg-danger text-white p-2 rounded-circle me-2"></i> My Account</h6>
-                                </div>
-                                <div class="right ms-auto">
-                                    <span class="fw-bold m-0"><i class="feather-chevron-right h6 m-0"></i></span>
-                                </div>
-                            </a>
-                            <a href="contact-us.html" class="d-flex w-100 align-items-center border-bottom px-3 py-4">
-                                <div class="left me-3">
-                                    <h6 class="fw-bold m-0 text-white"><i class="feather-phone bg-primary text-white p-2 rounded-circle me-2"></i> Contact Us</h6>
-                                </div>
-                                <div class="right ms-auto">
-                                    <span class="fw-bold m-0"><i class="feather-chevron-right h6 m-0"></i></span>
-                                </div>
-                            </a>
-                            <a href="terms.html" class="d-flex w-100 align-items-center border-bottom px-3 py-4">
-                                <div class="left me-3">
-                                    <h6 class="fw-bold m-0 text-white"><i class="feather-info bg-success text-white p-2 rounded-circle me-2"></i> Term of use</h6>
-                                </div>
-                                <div class="right ms-auto">
-                                    <span class="fw-bold m-0"><i class="feather-chevron-right h6 m-0"></i></span>
-                                </div>
-                            </a>
-                            <a href="privacy.html" class="d-flex w-100 align-items-center px-3 py-4">
-                                <div class="left me-3">
-                                    <h6 class="fw-bold m-0 text-white"><i class="feather-lock bg-warning text-white p-2 rounded-circle me-2"></i> Privacy policy</h6>
-                                </div>
-                                <div class="right ms-auto">
-                                    <span class="fw-bold m-0"><i class="feather-chevron-right h6 m-0"></i></span>
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
         <!-- Footer -->
@@ -478,7 +464,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header border-0">
-                    <h5 class="modal-title fw-bold text-white">Invite</h5>
+                    <h5 class="modal-title fw-bold text-dark">Invite</h5>
                     <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body py-0">
@@ -488,14 +474,14 @@
                     <div class="d-flex align-items-center mb-3">
                         <div class="me-3"><img alt="#" src="img/user1.jpg" class="img-fluid rounded-circle"></div>
                         <div>
-                            <p class="small fw-bold text-white mb-0">Kate Simpson</p>
+                            <p class="small fw-bold text-dark mb-0">Kate Simpson</p>
                             <P class="mb-0 small"><a href="https://gabbytests.github.io/food/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="95fef4e1f0e6fcf8e5e6fafbd5fae0e1f7fafafebbf6faf8">[email&#160;protected]</a></P>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
                         <div class="me-3"><img alt="#" src="img/user2.png" class="img-fluid rounded-circle"></div>
                         <div>
-                            <p class="small fw-bold text-white mb-0">Andrew Smith</p>
+                            <p class="small fw-bold text-dark mb-0">Andrew Smith</p>
                             <P class="mb-0 small"><a href="https://gabbytests.github.io/food/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b4a454f594e5c5846425f436b5e421305484446">[email&#160;protected]</a></P>
                         </div>
                     </div>
